@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+@media(min-width:1280px){
+  header{width: 1280px; height: 500px; background-color:#fffbf7; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-end;}
+#top_box{width: 50%; height: 450px;}
+#top_box .logo{width: 135px; height: 30px; margin: 20px;}
+.logo img{width: 135px; height: 30px;}
+#top_box .new{width: 640px; height: 200px; margin-top: 370px;}
+
+#top_box1{width: 15%; height: 450px;}
+#top_box1 li{text-align: center; padding: 15px; font-size: 17px;}
+#top_box1 li:hover{background-color: #666; padding: 15px;}
+#top_box1 li:hover a{color: #fff;}
+
+section{width: 100%; height: auto; background-color: #fffbf7; margin: 0 auto;}
+#new {width: 1280px; height: 250px; margin: 0 auto;}
+#new h2{font-size: 45px;}
+#new p{font-size: 19px; padding-top: 35px;}
+
+#img_box{width: 100%; height: 694px;}
+#img_box img{width: 70%; height: 100%; float: right;}
+
+#text{width: 880px; height: 650px; margin: 0 auto;}
+#text h1{font-size: 50px; padding: 180px 150px;}
+#text span{margin-left: 180px;}
+#text p{float: right; font-size: 17.5px; margin: -60px 40px;}
+
+#one{width: 100%; height: 1620px;}
+#first{width: 50%; height: 540px;}
+img{width: 100%; height: 100%;}
+
+#mission{width: 50%; height: 540px; background-color:#f5f1ec; float: right; margin-top: -15%;}
+#mission p{font-size: 17px; margin: 190px 140px;}
+
+#our{width: 50%; height: 540px; background-color: black; padding: 205px 130px; font-size: 22px;}
+#our p{color: white;}
+
+#two{width: 50%; height: 540px; float: right; margin-top: -15%;}
+
+#life{width: 50%; height: 540px;}
+#life p{font-size: 17px; padding: 210px 100px;}
+
+aside{width: 1280px; height: 1780px; margin: 0 auto;}
+
+#title{width: 1280px; height: 250px;}
+#title h2{font-size: 60px; padding-left:150px;}
+#title span{color: #a58d7f;}
+
+#beauty{width: 960px; height: 480px; background-image: url(../img/main/아이템.jpg);}
+
+
+#fashion{width: 480px; height: 480px; float: right; margin-top: -180px; }
+
+#celeb{width: 480px; height: 480px; margin-top: -80px;}
+#lifestyle{width: 960px; height: 480px; margin: -50px 160px;}
+
+#slider .runway{width: 1280px; height: 2835px;  margin: 0 auto;}
+.name{width: 380px; height: 200px;}
+.name h2{font-size: 65px; text-align: center; padding-top: 50px;}
+
+.louis{width: 320px; height: 400px; margin: 0 215px;}
+.vuitton{width: 540px; height: 280px; float: right; margin: -280px 185px;}
+.vuitton p{padding-top: 85px;}
+
+.lemaire{width: 320px; height: 400px; margin: 100px 80px;}
+.lemaire_box{width: 480px; height: 235px; margin: -70px 80px;}
+
+.ken{width: 320px; height: 400px; float: right; margin: -530px 250px;}
+.zo{width: 480px; height: 235px; float: right; margin: -100px 90px;}
+
+.jason{width: 320px; height: 400px; margin: 200px 235px;}
+.wu{width: 480px; height: 235px; float: right; margin: -435px 220px;}
+.wu p{padding-top: 45px;}
+
+.jacq{width: 320px; height: 400px; float: right; margin: -70px 240px;}
+.uemus{width: 480px; height: 235px; float: right; margin: 100px 80px;}
+
+.her{width: 320px; height: 400px; margin-left: 80px;}
+.mes{width: 480px; height: 235px; margin: 30px 80px;}
+
+#style{width: 1280px; height: 1460px; margin: 0 auto;}
+#style h1{padding: 65px 0px; font-size: 80px;}
+
+.posts{width: 60%; height: 300px; float: left;}
+.posts_box{width: 40%; height: 300px; float: right;}
+.posts_box h2{padding-top: 110px; margin: 20px;}
+.posts_box p{margin: 20px;}
+
+.style_box{width: 40%; height: 300px; margin-top: 100px; float: left;}
+.style_box h2{padding-top: 130px; margin: 15px;}
+.style_box p{margin: 15px;}
+.style_box1{width: 60%; height: 300px; float: right; margin-top: 100px;}
+
+.oslo{width: 60%; height: 300px; float: left; margin-top: 100px;}
+.oslo_box{width: 40%; height: 300px; float: right; margin-top: 100px;}
+.oslo_box h2{padding-top: 120px; margin: 20px;}
+.oslo_box p{margin: 20px;}
+
+#mck{width: 1280px; height: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; align-content: center; justify-content: space-evenly;}
+.shop{width: 320px; height: 450px; margin: 10px;}
+
+footer{width: 100%; height: 200px; padding: 60px 0;}
+#footer_box{width: 1280px; height: 100px; margin: 0 auto;}
+footer p{padding-top: 20px;}
+.insta {width: 36px; height: 36px; display: inline-block;}
+.face {width: 36px; height: 36px; display: inline-block;}
+.tube {width: 36px; height: 36px; display: inline-block;}
+}

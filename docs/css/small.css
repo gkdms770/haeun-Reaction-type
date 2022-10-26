@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+@media(max-width:599px){
+  header{width: 100%; height: 500px; background-color:#fffbf7; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-end;}
+#top_box{width: 50%; height: 450px;}
+#top_box .logo{width: 135px; height: 30px; margin: 20px;}
+.logo img{width: 135px; height: 30px;}
+#top_box .new{width: 100%; height: 200px; margin-top: 370px;}
+
+#top_box1{width: 192px; height: 450px;}
+#top_box1 li{text-align: center; padding: 15px; font-size: 17px;}
+#top_box1 li:hover{background-color: #666; padding: 15px;}
+#top_box1 li:hover a{color: #fff;}
+
+section{width: 100%; height: auto; background-color: #fffbf7; margin: 0 auto;}
+#new {width: 100%; height: 250px; margin: 0 auto;}
+#new h2{font-size: 45px; padding: 0 20px;}
+#new p{font-size: 19px; padding:35px 20px;}
+
+#img_box{width: 100%; height: 694px; position: relative;}
+#img_box img{width: 100%; height: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%);}
+
+#text{width: 90%; height: 650px; margin: 0 auto;}
+#text h1{font-size: 40px; padding: 180px 0; text-align: center;}
+#text span{margin-left: 180px;}
+#text p{float: right; font-size: 17.5px; margin: -60px 0;}
+
+#one{width: 100%; height: auto}
+#first{width: 100%; height:auto;}
+img{width: 100%; height: 100%;}
+
+#mission{width: 100%; height: auto; background-color:#f5f1ec; float: right; display: flex; justify-content: center; align-items: center; padding: 5%; margin-top:-5px;}
+#mission p{font-size: 17px;}
+
+#our{width: 100%; height: auto; background-color: black; font-size: 22px;display: flex; justify-content: center; align-items: center; padding: 5%;}
+#our p{color: white;}
+
+#two{width: 100%; height: auto; float: right;}
+
+#life{width: 100%; height:auto; display: flex; justify-content: center; align-items: center; padding: 5%;}
+#life p{font-size: 17px;}
+
+aside{width: 100%; height: 1880px; margin: 0 auto;}
+
+#title{width: 100%; height: 350px;}
+#title h2{font-size: 45px; padding: 95px 11%;}
+#title span{color: #a58d7f;}
+
+#beauty{width: 100%; height: 480px; background-image: url(../img/main/아이템.jpg); background-position: top center;}
+
+
+#fashion{width: 50%; height: 480px; float: right;}
+
+#celeb{width: 50%; height: 480px;}
+#lifestyle{width: 100%; height: 480px;}
+
+#slider .runway{width: 100%; height: auto;  margin: 0 auto;}
+.name{width: 380px; height: 200px;}
+.name h2{font-size: 65px; padding: 50px 20px;}
+
+.louis{width:40%; height: 400px; margin: 0 5%;}
+.louis img{max-width: 320px;}
+.vuitton{width: 45%; height: 280px; float: right; margin: -350px 5% 0 5%;}
+.vuitton p {font-size: 13px;}
+
+.lemaire{width: 100%; height: 400px; display: flex; justify-content: center; align-items: center; margin-top: 80px;}
+.lemaire img{max-width: 320px;}
+.lemaire_box{width: 100%; height: 250px; display: flex; justify-content: center; align-items: center;}
+.lemaire_box p{width: 50%; font-size: 13px;}
+
+.ken{width: 100%; height: 400px; display: flex; justify-content: center; align-items: center; margin-top: 80px;}
+.ken img{max-width: 320px;}
+.zo{width: 100%; height: 250px; display: flex; justify-content: center; align-items: center;}
+.zo p{width: 50%; font-size: 13px;}
+
+
+.jason{width:40%; height: 400px; margin: 50px 5%;}
+.jason img{max-width: 320px;}
+.wu{width: 45%; height: 280px; float: right; margin: -350px 5% 0 5%;}
+.wu p{font-size: 13px;}
+
+.jacq{width: 100%; height: 400px; display: flex; justify-content: center; align-items: center; margin-top: 120px;}
+.jacq img{max-width: 320px;}
+.uemus{width: 100%; height: 250px; display: flex; justify-content: center; align-items: center;}
+.uemus p{width: 50%; font-size: 13px;}
+
+
+.her{width: 100%; height: 400px; display: flex; justify-content: center; align-items: center; margin-top: 80px;}
+.her img{max-width: 320px;}
+.mes{width: 100%; height: 300px; display: flex; justify-content: center; align-items: center;}
+.mes p{width: 50%; font-size: 13px;}
+
+#style{width: 100%; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap;}
+#style h1{padding: 65px 20px; font-size: 65px;}
+
+.posts{width: 100%; height: 300px; float: left;}
+.posts_box{width: 100%; height: 300px; float: right;}
+.posts_box h2{ margin: 20px; font-size: 30px; text-align: center;}
+.posts_box p{margin: 20px;}
+
+.style_box{width: 100%; height: 300px; float: left; order: 2;}
+.style_box h2{ margin: 15px; font-size: 27px; text-align: center;}
+.style_box p{margin: 15px;}
+.style_box1{width: 100%; height: 300px; float: right; order: 1;}
+
+.oslo{width: 100%; height: 300px; float: left;order: 3;}
+.oslo_box{width: 100%; height: 300px; float: right; order: 4;}
+.oslo_box h2{margin: 20px; font-size: 30px;}
+.oslo_box p{margin: 20px;}
+
+#mck{width: 100%; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap; align-content: center; justify-content: space-evenly;}
+.shop{width: 320px; height: 450px; margin: 10px;}
+
+footer{width: 100%; height: 200px; padding: 60px 0;}
+#footer_box{width: 100%; height: 100px; margin: 0 auto; padding: 20px;}
+footer p{padding: 20px 0;}
+.insta {width: 36px; height: 36px; display: inline-block;}
+.face {width: 36px; height: 36px; display: inline-block;}
+.tube {width: 36px; height: 36px; display: inline-block;}
+}
